@@ -1,25 +1,23 @@
-## Feedback
+## Kirim Laporan (Ticket)
 
-> Request Feedback
+> Request Ticket
 
 ```json
 {   
     "clientId": "rm885j",
-    "ratting": "4",
     "message": "test laporan"
 }
 ```
-URL: `POST https://api.dev.pointkita.com/feedback`
+URL: `POST https://api.dev.pointkita.com/ticket`
 
-**Parameter Feedback**
+**Parameter Ticket**
 
 Parameter | Nilai | Deskripsi
 ----------|-------|-----------
 clientId| string |
-ratting| string |
 message| No Hp | 
 
-> Response Feedback
+> Response Ticket
 
 ```json
 {
@@ -29,7 +27,8 @@ message| No Hp |
     "data": {}
 }
 ```
-**Parameter Response Feedback**
+
+**Parameter Response Ticket**
 
 Parameter | Nilai | Deskripsi
 ----------|-------|-----------
@@ -37,5 +36,3 @@ response_code| string |
 status| string |
 message| string | 
 data| Object | 
-
-

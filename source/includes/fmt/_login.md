@@ -8,14 +8,14 @@
 {   
     "clientId": "rm885j",
     "codeChallenge": "xxUye",
-    "msisdn": "0889654604068",
+    "msisdn": "081XXXXXXXX",
     "password": "xcode734"
 }
 ```
 
 URL : `POST https://api.dev.pointkita.com/loginauth`
 
-**Request Parameters**
+**Response Parameters**
 
 Parameter | Nilai | Deskripsi
 ----------|-------|-----------
@@ -27,20 +27,23 @@ password| String |
 > Response generate token
 
 ```json
-{   
-    "clientId": "rm885j",
-    "codeChallenge": "xxUye",
-    "msisdn": "0889654604068",
-    "password": "xcode734"
+{
+    "responseCode": 200,
+    "status": "ok",
+    "data": {
+        "authorizationCode": "TOKEN_FROM_BACKEND",
+        "expiresIn": "10800"
+    }
 }
 ```
-
-**Response Parameters**
+**Request Parameters**
 
 Parameter | Nilai | Deskripsi
 ----------|-------|-----------
-clientId| string |
-codeChallenge| string |
+responseCode| string |
+status| string |
 msisdn| No Hp |
-password| String | 
+data| Object | 
+
+
 

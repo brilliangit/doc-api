@@ -12,6 +12,9 @@ includes:
   - fmt/login
   - fmt/register
   - fmt/feedback
+  - fmt/ticket
+  - fmt/customerfaq
+  - fmt/customerfaqdetail
   - errors
 search: true
 
