@@ -11,6 +11,7 @@ toc_footers:
 includes:
   - fmt/login
   - fmt/register
+  - fmt/feedback
   - errors
 search: true
 
@@ -31,5 +32,3 @@ Production  |
 
 # Referensi Api
 
-## Login
-## Register
