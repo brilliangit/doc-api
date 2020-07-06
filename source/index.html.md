@@ -30,5 +30,11 @@ Environment | Target URL
 Development | `https://api.dev.pointkita.com`  
 Production  | 
 
+ketentuan untuk melakukan request ke Backend Poku :
+
+1. menyertahan header `Content-Type: application/json`
+2. menyertahan header `Authorization: 45r43ijuiyueyhfudiu`
+   , cara generate `Authorization` [Referensi API > Login > Generate Token](#login)
+
 # Referensi Api
 
