@@ -24,7 +24,7 @@ interestIds | object array |
 {
   "responseCode": 200,
   "status": "ok",
-  "message": "Update Customer Interest successfully"
+  "message": "Update profile data successfully"
 }
 ```
 
