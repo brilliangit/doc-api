@@ -19,6 +19,8 @@ includes:
   - fmt/preferenceinterest
   - fmt/customerinterestoption
   - fmt/submitcustomerinterest
+  - fmt/customersettingnotif
+  - fmt/submitcustomersettingnotif
   - fmt/categoryvoucher
   - fmt/favoritevoucher
   - fmt/recommendationvoucher
