@@ -41,6 +41,18 @@ newPassword | string |
   "message": "New password cannot be the same as old password"
 }
 
+{
+  "responseCode": "204",
+  "status": "error",
+  "message": "Format old password a minimum 8 characters password contains a combination of uppercase and alphanumeric"
+}
+
+{
+  "responseCode": "205",
+  "status": "error",
+  "message": "Old password failed"
+}
+
 
 ```
 
