@@ -11,10 +11,15 @@ toc_footers:
 includes:
   - fmt/login
   - fmt/register
+  - fmt/customerdataprofile
   - fmt/feedback
   - fmt/ticket
   - fmt/customerfaq
   - fmt/customerfaqdetail
+  - fmt/categoryvoucher
+  - fmt/favoritevoucher
+  - fmt/recommendationvoucher
+  - fmt/earnpartnerpoku
   - errors
 search: true
 
@@ -37,7 +42,7 @@ ketentuan untuk melakukan request ke Backend Poku :
 
 1. menyertahan header `Content-Type: application/json`
 2. menyertahan header `Authorization: 45r43ijuiyueyhfudiu`
-   , cara generate `Authorization` [Referensi API > Login > Generate Token](#login)
+  , cara generate `Authorization` [Referensi API > Login > Generate Token](#login)
 
 # Referensi Api
 
