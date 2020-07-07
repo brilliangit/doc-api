@@ -35,7 +35,7 @@ clientId | string | rm885j
 
 Parameter | Nilai | Deskripsi
 ----------|-------|-----------
-response_code| string |
+responseCode| string |
 status| string |
 message| string | 
 data| Object | 
