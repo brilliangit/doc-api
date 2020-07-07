@@ -2,7 +2,7 @@
 
 ### Generate Auth Token
 
-> Request generate token
+> Request generate auth token
 
 ```json
 {   
@@ -24,7 +24,7 @@ codeChallenge| string |
 msisdn| No Hp |
 password| String | 
 
-> Response generate token
+> Response generate auth token
 
 ```json
 {
@@ -45,9 +45,9 @@ status| string |
 msisdn| No Hp |
 data| Object | 
 
-### Generate Token
+### Generate Access Token
 
-> Request generate token
+> Request generate access token
 
 ```json
 {   
@@ -69,7 +69,7 @@ codeVerifier| string |
 clientId| string |
 grantType| string | 
 
-> Response generate token
+> Response generate access token
 
 ```json
 {

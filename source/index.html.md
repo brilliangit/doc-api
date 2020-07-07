@@ -16,6 +16,9 @@ includes:
   - fmt/ticket
   - fmt/customerfaq
   - fmt/customerfaqdetail
+  - fmt/preferenceinterest
+  - fmt/customerinterestoption
+  - fmt/submitcustomerinterest
   - fmt/categoryvoucher
   - fmt/favoritevoucher
   - fmt/recommendationvoucher
