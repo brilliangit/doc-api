@@ -10,13 +10,13 @@ headers =
 }
 ```
 
-URL: `GET https://api.dev.pointkita.com/customerinterest/customerId:10`
+URL: `GET https://api.dev.pointkita.com/customerinterest/rm885j`
 
 **Parameter Customer Preference Interest**
 
 Parameter | Nilai | Deskripsi
 ----------|-------|-----------
-customerId | int | 
+clientId | string | rm885j
 
 > Response Customer Preference Interest
 
@@ -24,7 +24,20 @@ customerId | int |
 {
   "responseCode": 200,
   "status": "ok",
-  "data": []
+  "data": [
+    {
+      "interest_id": 1,
+      "interest_name": "Coffee",
+      "images": "https://storage.googleapis.com/www.dev.pointkita.com//interest/interest/coffee.svg",
+      "status": 1
+    },
+    {
+      "interest_id": 3,
+      "interest_name": "Groceries",
+      "images": "https://storage.googleapis.com/www.dev.pointkita.com//interest/interest/grocery.svg",
+      "status": 1
+    }
+  ]
 }
 ```
 
