@@ -10,7 +10,7 @@ toc_footers:
 
 includes:
   - fmt/login
-  - fmt/register
+  # - fmt/register
   - fmt/customerdataprofile
   - fmt/feedback
   - fmt/ticket
@@ -27,6 +27,7 @@ includes:
   - fmt/favoritevoucher
   - fmt/recommendationvoucher
   - fmt/earnpartnerpoku
+  - fmt/tier
   - errors
 search: true
 
