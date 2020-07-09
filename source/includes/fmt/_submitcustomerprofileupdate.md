@@ -11,7 +11,7 @@
 }
 ```
 
-URL: `POST https://api.dev.pointkita.com/customerinterest`
+URL: `PUT https://api.dev.pointkita.com/customer`
 
 **Parameter Update Customer Profile Data**
 

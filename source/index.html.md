@@ -26,8 +26,10 @@ includes:
   - fmt/categoryvoucher
   - fmt/favoritevoucher
   - fmt/recommendationvoucher
+  - fmt/recommendationdetail
   - fmt/earnpartnerpoku
   - fmt/tier
+  - fmt/customerpoint
   - errors
 search: true
 
