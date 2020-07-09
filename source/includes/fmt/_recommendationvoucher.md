@@ -10,7 +10,7 @@ headers =
 }
 ```
 
-URL: `GET https://api.dev.pointkita.com/customerrecomendationDetail/rm885j`
+URL: `GET https://api.dev.pointkita.com/customerrecomendation/rm885j`
 
 **Parameter Recommendation Voucher List**
 
