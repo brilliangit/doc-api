@@ -28,6 +28,7 @@ includes:
   - fmt/recommendationvoucher
   - fmt/recommendationdetail
   - fmt/earnpartnerpoku
+  - fmt/earnpartnerdetail
   - fmt/tier
   - fmt/customerpoint
   - errors
