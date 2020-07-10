@@ -14,7 +14,7 @@ includes:
   - fmt/checkemail
   - fmt/registerreqotp
   - fmt/registervalidateotp
-  # - fmt/register
+  - fmt/register
   - fmt/customerdataprofile
   - fmt/feedback
   - fmt/ticket
