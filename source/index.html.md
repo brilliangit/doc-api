@@ -12,6 +12,8 @@ includes:
   - fmt/login
   - fmt/checkmsisdn
   - fmt/checkemail
+  - fmt/registerreqotp
+  - fmt/registervalidateotp
   # - fmt/register
   - fmt/customerdataprofile
   - fmt/feedback
