@@ -22,10 +22,37 @@ clientId | string | rm885j
 
 ```json
 {
-  "responseCode": 200,
-  "status": "ok",
-  "data": [
-  ]
+    "responseCode": 200,
+    "status": "ok",
+    "data": {
+        "total_point": 120,
+        "detail_point": [
+            {
+                "name": "pointku",
+                "point": 80,
+                "expired_date": "2020-11-02",
+                "message": "ditukar jadi"
+            },
+            {
+                "name": "bni point",
+                "point": 20,
+                "expired_date": "2020-11-02",
+                "message": "ditukar jadi"
+            },
+            {
+                "name": "telkomsel point",
+                "point": 10,
+                "expired_date": "2020-11-02",
+                "message": "ditukar jadi"
+            },
+            {
+                "name": "linkaja",
+                "point": 10,
+                "expired_date": "2020-11-02",
+                "message": "ditukar jadi"
+            }
+        ]
+    }
 }
 ```
 

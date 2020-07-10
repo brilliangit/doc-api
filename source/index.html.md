@@ -15,6 +15,9 @@ includes:
   - fmt/registerreqotp
   - fmt/registervalidateotp
   - fmt/register
+  - fmt/forgotreqotp
+  - fmt/forgotvalidateotp
+  - fmt/forgotpassword
   - fmt/customerdataprofile
   - fmt/feedback
   - fmt/ticket
@@ -35,6 +38,7 @@ includes:
   - fmt/earnpartnerdetail
   - fmt/tier
   - fmt/customerpoint
+  - fmt/customerpartnerpoint
   - errors
 search: true
 
