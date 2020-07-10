@@ -10,6 +10,8 @@ toc_footers:
 
 includes:
   - fmt/login
+  - fmt/checkmsisdn
+  - fmt/checkemail
   # - fmt/register
   - fmt/customerdataprofile
   - fmt/feedback
