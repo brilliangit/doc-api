@@ -12,6 +12,7 @@ includes:
   - fmt/login
   - fmt/checkmsisdn
   - fmt/checkemail
+  - fmt/partnerandewallet
   - fmt/registerreqotp
   - fmt/registervalidateotp
   - fmt/register

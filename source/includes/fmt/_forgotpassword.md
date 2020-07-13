@@ -29,12 +29,12 @@ otpRequestId | string |
 {
     "responseCode": 200,
     "status": "ok",
-    "message": "validate otp successfully"
+    "message": ""
 }
 {
     "responseCode": "201",
     "status": "error",
-    "message": "Account already exist"
+    "message": "Forgot failed"
 }
 ```
 
